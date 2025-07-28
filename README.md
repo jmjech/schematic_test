@@ -19,7 +19,7 @@ flowchart TB
         idAL1@{shape: tag-doc, label: "AA Library Function: link to instructions"} --> idMan@{ shape: diamond, label: "Select Manufacturer" }
         idAL2@{shape: tag-doc, label: "EchoPype Function: link to instructions"} --> idMan
     end
-    subgraph ESMetaData["**Echosounder Data File Format \& Metadata**"]
+    subgraph ESMetaData["**Data File Format \& Metadata**"]
         direction TB
         idKS@{ shape: rounded, label: "Kongsberg-Simrad" } --> idKSMD@{ shape: tag-doc, label: "link to Kongsberg-Simrad data file format and metadata" }
         idBS@{ shape: rounded, label: "BioSonics" } --> idBSMD@{ shape: tag-doc, label: "link to BioSonics data file format and metadata" }
